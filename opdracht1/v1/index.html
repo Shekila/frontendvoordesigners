@@ -1,17 +1,33 @@
-<html>
-  <head></head>
-  <body>
-    <h1>Opdracht 1 - versie 1</h1>
-    <p>
-      Hier komt de HTML van de interactieve demo te staan voor de eerste opdracht:
-      Ontwerp een user interface voor een gegeven use case.
-      Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
-    </p>
-    <ol>
-      <li>Als ik een lijst films heb gevonden, wil ik leuke films kunnen opslaan om ze thuis te ...</li>
-      <li>In een lijst gevonden studentenhuizen wil ik details kunnen bekijken om te bepalen of de kamer geschikt is.</li>
-      <li>In een verzameling muzieknummers wil ik de volgorde kunnen veranderen om een vette playlist te maken.</li>
-      <li>Als ik foto's zoek wil ik kunnen selecteren op kleur om verassende zoekresultaten te krijgen.</li>
-    </ol>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Netflix & Chill</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#refresh"><img class="chill" src="images/logo.png" alt="logo"></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#saved">Saved</a></li>
+        <li><p id="result">0</p></li>
+    </ul>
+</nav>
+<section>
+<h1>Most popular films</h1>
+<div class="filmlist">
+    <article><a href="#"><img src="images/batmanvsuperman.png" alt="batman versus superman"></a><button class="save" onclick="count()">Save <img src="images/save.png" alt="save"></button></article>
+    <article><a href="#"><img src="images/endgame.png" alt="avengers endgame"></a><button class="save" onclick="count()">Save <img src="images/save.png" alt="save"></button></article>
+    <article><a href="#"><img src="images/ironman.png" alt="iron man"></a><button class="save" onclick="count()">Save <img src="images/save.png" alt="save"></button></article>
+    <article><a href="#"><img src="images/manofsteel.png" alt="man of steel"></a><button class="save" onclick="count()">Save <img src="images/save.png" alt="save"></button></article>
+    <article><a href="#"><img src="images/shazam.png" alt="shazam"></a><button class="save" onclick="count()">Save <img src="images/save.png" alt="save"></button></article>
+    <article><a href="#"><img src="images/thedarkknight.png" alt="the dark knight"></a><button class="save" onclick="count()">Save <img src="images/save.png" alt="save"></button></article>
+</div>
+</section>
+<script src="javascript/script.js"></script>
+</body>
 </html>

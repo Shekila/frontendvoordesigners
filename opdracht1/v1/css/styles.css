@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+h1 {
+    padding-top: 70px;
+    padding-left: 20px;
+    color: white;
+}
+
+/* navigatie */
+
+.chill {
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: red;
+    color: white;
+}
+
+p {
+    position: relative;
+    display: block;
+    float: right;
+    color: white;
+    background-color: red;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-left: 1em;
+}
+
+/* gallery of films */
+
+.filmlist {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section img {
+    display: block;
+    width: 85%;
+    display: flex;
+    padding-bottom: 15%;
+    transition: .5s ease;
+}
+
+section img:hover {
+    opacity: 0.4;
+    transition: .5s ease;
+}
+
+section a {
+    text-decoration: none;
+}
+
+button {
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    width: 425px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 30%;
+    margin-top: -74px;
+    border: none;
+}
+
+button img {
+    width: 17px;
+    position: absolute;
+    top: 0.8em;
+    margin-left: 12.4em;
+}
+
+button:hover {
+    transition: .5s ease;
+    background-color: darkred;
+}
+
+/* titles */
