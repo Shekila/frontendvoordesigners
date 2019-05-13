@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Photography</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#refresh"><img class="home" src="images/logoblack.png" alt="logo camera"></a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="slidesfade">
+            <img src="images/asia.jpg" alt="asia">
+            <!--https://stocksnap.io/photo/1VZO8DDCHZ-->
+            <p class="text">The beauty of Asia</p>
+        </div>
+
+        <div class="slidesfade">
+            <img src="images/japan.jpg" alt="japan">
+            <!--https://stocksnap.io/photo/D1ZKNYWZ12-->
+            <p class="text">The flowers of Japan</p>
+        </div>
+
+        <div class="slidesfade">
+            <img src="images/turkey.jpg" alt="turkey">
+            <!--https://stocksnap.io/photo/4AAD483443-->
+            <p class="text">The mosque of Turkey</p>
+        </div>
+
+        <!-- next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- dots/circles -->
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
