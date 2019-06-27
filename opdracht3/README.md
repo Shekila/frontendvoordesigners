@@ -1,9 +1,5 @@
 # frontend voor designers - opdracht 3
-
-Voor opdracht 3 ga je een functionaliteit ontwerpen met externe data, en testen. De data is JSON die met een REST API van een externe bron wordt ingeladen met Javascript. Als de data geladen is moeten gebruikers je ontwerp op verschillende manieren kunnen bedienen. Verschillende states zijn vormgeven en worden op het juiste moment getoond.
-
-Dit is een voorbeeld van het laden van data en er html mee maken:
-[Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/XMLHttpRequest/)
+Ik vond deze opdracht erg lastig. Het inladen van JSON is me gelukt maar de elementen uit opdracht 1 en 2 lukten me echt niet om te maken. Vooral omdat ik door deze opdracht was genoodzaakt was enkel van Javascript gebruik te maken.
 
 
 ## JSON
