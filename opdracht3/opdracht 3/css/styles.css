@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+h2, p {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+section {
+    padding-top: 5%;
+}
+
+section img {
+    width: 25%;
+    display: flex;
+    transition: .5s ease;
+}
+
+section img:hover {
+    opacity: 0.4;
+    transition: .5s ease;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* navigation */
+
+.chill {
+    width: 50px;
+}
+
+h3 {
+    font-size: 1em;
+    position: relative;
+    display: block;
+    float: right;
+    color: white;
+    background-color: red;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-left: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: red;
+    color: white;
+}
